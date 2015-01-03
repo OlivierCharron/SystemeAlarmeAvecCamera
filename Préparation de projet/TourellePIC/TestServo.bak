@@ -1,0 +1,43 @@
+#include <TestServo.h>
+#include <stdlib.h>
+
+#define BASE   PIN_B6
+#define HAUT   PIN_B7
+      
+
+void main()
+{
+   setup_timer_3(T3_DISABLED | T3_DIV_BY_1);
+   char value;
+   int position = 0;
+   do
+   {
+     /* while(!kbhit())
+      {
+        value = getc();
+      }
+      if(value == 'a' || value == 'A')
+      {
+         /*do
+         {
+         
+         value = getc();
+         }while(value == 'a' || value == 'A')
+         for(position = 0; position< 180; position++)
+         {
+           output_high(BASE);
+           delay_ms(10);
+           output_low(BASE);
+         }*/
+         
+         for(position = 180; position< 0; position--)
+         {
+           output_high(BASE);
+           delay_ms(10);
+           output_low(BASE);
+           delay_ms(10);
+         }
+      
+      
+   }while(TRUE);
+}

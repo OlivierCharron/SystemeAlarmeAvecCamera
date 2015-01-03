@@ -1,0 +1,76 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 strtok.save
+006-009 _Randseed
+00A     MAIN.value
+00B     MAIN.position
+00C     @delay_ms1.P1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0004  @delay_ms1
+002A  MAIN
+002A  @cinit1
+0042  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\TourellePIC\
+
+Project Files:
+    TestServo.c                                             [29-Sep-14 17:15  CRC=4E25E34B]
+    TestServo.h                                             [29-Sep-14 16:51  CRC=98EC1674]
+    ..\..\..\..\Program Files (x86)\PICC\devices\18F4550.h  [16-Jul-12 14:21  CRC=DCD1BB11]
+    ..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h   [08-Jun-11 14:39  CRC=0B6669CF]
+    ..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h   [16-Jul-10 09:27  CRC=897CEC6C]
+    ..\..\..\..\Program Files (x86)\PICC\drivers\string.h   [14-Jul-11 10:13  CRC=23EDEC8F]
+    ..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h    [03-Jan-08 13:55  CRC=2D1F019F]
+
+Source signature=D6F2FAD8
+
+Units:
+    TestServo (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      TestServo.err
+    Ext Symbols: TestServo.esym
+    INHX32:      TestServo.hex
+    Symbols:     TestServo.sym
+    List:        TestServo.lst
+    Debug/COFF:  TestServo.cof
+    Project:     TestServo.PJT
+    Call Tree:   TestServo.tre
+    Statistics:  TestServo.STA

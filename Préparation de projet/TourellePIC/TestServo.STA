@@ -1,0 +1,49 @@
+
+ROM used: 128 (0%)
+          128 (0%) including unused fragments
+
+          0 Average locations per line
+          0 Average locations per statement
+
+RAM used: 10 (0%) at main() level
+          13 (1%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   43    14   3  TestServo.c
+   16     0   0  TestServo.h
+  464     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\18F4550.h
+ 1351   359  72  ..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+  423   125  25  ..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+ 2357   498 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38  15   1             @delay_ms1
+0     86  34   0   393  5.2  MAIN
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              498
+    Comments                891
+    Volume (V)              398
+    Difficulty (D)          4.9
+    Effort to implement (E) 1937
+    Time to implement (T)   2 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   3
+    Maintainability (MI)    77
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE   124  32640  
+
+
+

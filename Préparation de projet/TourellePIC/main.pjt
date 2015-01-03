@@ -1,0 +1,23 @@
+[PROJECT]
+Target=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\TourellePIC\main.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+[C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\TourellePIC\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\TourellePIC\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\TourellePIC\main
+[Opened Files]
+1=main.c
+2=

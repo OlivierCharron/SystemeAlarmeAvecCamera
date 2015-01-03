@@ -1,0 +1,6 @@
+>>> Warning 205 "TestServo.c" Line 33(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "TestServo.c" Line 33(1,1): Condition always FALSE
+>>> Warning 202 "TestServo.c" Line 11(9,14): Variable never used:   value
+      Memory usage:   ROM=0%      RAM=0% - 1%
+      0 Errors,  3 Warnings.
+Build Successful.

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "GccApplication3", "GccApplication3\GccApplication3.cppproj", "{831D1F34-E818-4A70-AB3B-80B18403784A}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LED_CHASER1", "LED_CHASER1\LED_CHASER1.cproj", "{D6C40DC8-6331-4AF3-BDF9-140D1AFC2DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{831D1F34-E818-4A70-AB3B-80B18403784A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{831D1F34-E818-4A70-AB3B-80B18403784A}.Debug|AVR.Build.0 = Debug|AVR
+		{831D1F34-E818-4A70-AB3B-80B18403784A}.Release|AVR.ActiveCfg = Release|AVR
+		{831D1F34-E818-4A70-AB3B-80B18403784A}.Release|AVR.Build.0 = Release|AVR
+		{D6C40DC8-6331-4AF3-BDF9-140D1AFC2DA3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D6C40DC8-6331-4AF3-BDF9-140D1AFC2DA3}.Debug|AVR.Build.0 = Debug|AVR
+		{D6C40DC8-6331-4AF3-BDF9-140D1AFC2DA3}.Release|AVR.ActiveCfg = Release|AVR
+		{D6C40DC8-6331-4AF3-BDF9-140D1AFC2DA3}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

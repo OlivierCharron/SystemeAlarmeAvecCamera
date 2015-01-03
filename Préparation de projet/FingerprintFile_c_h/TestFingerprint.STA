@@ -1,0 +1,45 @@
+
+ROM used: 48 (0%)
+          48 (0%) including unused fragments
+
+          0 Average locations per line
+          16 Average locations per statement
+
+RAM used: 18 (1%) at main() level
+          18 (1%) worst case
+
+Stack used: 0 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   16     3 100  TestFingerprint.c
+   16     0   0  TestFingerprint.h
+  464     0   0  ..\..\..\..\Program Files (x86)\PICC\devices\18F4550.h
+   81     0   0  FingerprintSensor.h
+----- -----
+  577     3 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44  46   0    42  1.7  main
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              3
+    Comments                114
+    Volume (V)              43
+    Difficulty (D)          1.4
+    Effort to implement (E) 61
+    Time to implement (T)   0 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    96
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE    44  32720  
+
+
+

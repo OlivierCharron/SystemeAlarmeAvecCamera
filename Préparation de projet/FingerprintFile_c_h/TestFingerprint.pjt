@@ -1,0 +1,26 @@
+[PROJECT]
+Target=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\FingerprintFile_c_h\TestFingerprint.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+Processor=0x4550
+[C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\FingerprintFile_c_h\TestFingerprint]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\FingerprintFile_c_h\TestFingerprint.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=C:\5_Session automne 2014\247-501-HU Intégrer un système ordiné\Préparation de projet\FingerprintFile_c_h\TestFingerprint
+[Opened Files]
+1=TestFingerprint.c
+2=FingerprintSensor.h
+3=FingerprintSensor.c
+4=
